@@ -58,3 +58,20 @@ ul {
     cursor: pointer;
     text-align: center;
   }
+
+  .block:after {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #4CAF50;
+    transition: transform 150ms;
+  }
+
+  .block:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #4CAF50;
+    transition: transform 150ms;
+    transform: scale(1.03);
+  }
+  
+  .block:hover:after {
+      width: 100%;
+  }
