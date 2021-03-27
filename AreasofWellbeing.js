@@ -4,12 +4,5 @@ startButton.addEventListener('click', startGame)
 
 function startGame(){
     console.log('Started')
-}
-
-function setNextStatement(){
-
-}
-
-function selectStatement(){
-
+    startButton.classList.add('hide')
 }
