@@ -23,8 +23,8 @@ ul {
   }
   
   .box {
-    width: 1000px;
-    height: 200px;
+    /* width: 1000px; */
+    height: 300px;
     align-items: center;
     justify-content: center;    
     
